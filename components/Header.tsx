@@ -9,7 +9,7 @@ const navigation = [
   { name: 'Startseite', href: '/' },
   { name: 'Interim Management', href: '/interim-management' },
   { name: 'KI-Beratung', href: '/ki-beratung' },
-  { name: 'Geschäftsentwicklung & Internationalisierung', href: '/internationalisierung' },
+      { name: 'Geschäftsentwicklung', href: '/internationalisierung' },
   { name: 'Branchen', href: '/branchen' },
   { name: 'Über uns', href: '/ueber-uns' },
   { name: 'Kontakt', href: '/kontakt' },

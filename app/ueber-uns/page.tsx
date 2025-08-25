@@ -17,21 +17,18 @@ const successStories = [
     challenge: 'Vertriebsstruktur optimieren und neue Märkte erschließen',
     solution: 'Implementierung einer datengetriebenen Vertriebsstrategie mit CRM-System',
     results: ['+44% Umsatzsteigerung', '+67% neue Kunden', '18 neue Märkte erschlossen'],
-    duration: '12 Monate',
   },
   {
     industry: 'Maschinenbau',
     challenge: 'Digitale Transformation und Prozessoptimierung',
     solution: 'KI-gestützte Qualitätskontrolle und Predictive Maintenance',
     results: ['-30% Fehlerquote', '+45% Effizienz', '50% weniger Ausfallzeiten'],
-    duration: '18 Monate',
   },
   {
     industry: 'Handel & Distribution',
     challenge: 'Internationale Expansion in den Nahen Osten',
     solution: 'Strukturierte Markteintrittsstrategie mit lokalen Partnern',
     results: ['+51% Wachstum', '5 neue Länder', '200% ROI'],
-    duration: '24 Monate',
   },
 ];
 
@@ -95,7 +92,7 @@ export default function UeberUnsPage() {
               <div>
                 <div className="rounded-xl overflow-hidden mb-6">
                   <Image
-                    src="/antonio-profile.png"
+                    src="/fotoas1.png"
                     alt="António Freiherr von Strachwitz"
                     width={400}
                     height={400}
@@ -269,7 +266,7 @@ export default function UeberUnsPage() {
                     <p className="text-gray-600 mb-6 leading-relaxed">
                       {story.challenge}
                     </p>
-                    <h4 className="text-lg font-heading font-bold text-primary mb-3">
+                    <h4 className="text-lg font-heading font-bold text-primary mb-4">
                       Unsere Lösung
                     </h4>
                     <p className="text-gray-600 leading-relaxed">
@@ -281,7 +278,7 @@ export default function UeberUnsPage() {
                     <h4 className="text-lg font-heading font-bold text-primary mb-4">
                       Ergebnisse
                     </h4>
-                    <div className="space-y-3 mb-6">
+                    <div className="space-y-3">
                       {story.results.map((result, resultIndex) => (
                         <div key={resultIndex} className="flex items-center">
                           <svg className="w-5 h-5 text-secondary mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
@@ -290,10 +287,6 @@ export default function UeberUnsPage() {
                           <span className="text-gray-600 font-semibold">{result}</span>
                         </div>
                       ))}
-                    </div>
-                    <div className="bg-gray-50 rounded-lg p-4">
-                      <div className="text-sm text-gray-500">Projektdauer</div>
-                      <div className="text-lg font-semibold text-primary">{story.duration}</div>
                     </div>
                   </div>
                 </div>

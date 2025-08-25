@@ -52,7 +52,7 @@ const kpiStatsData = [
     value: '+44%',
     label: 'Umsatzsteigerung',
     description: 'Feinkosthersteller',
-    industry: '100 MA',
+            industry: 'Strategische Expansion',
   },
   // ... more stats
 ];

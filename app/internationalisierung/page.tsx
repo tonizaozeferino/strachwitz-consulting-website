@@ -2,10 +2,10 @@ import type { Metadata } from 'next';
 import CTABar from '@/components/ui/CTABar';
 
 export const metadata: Metadata = {
-  title: 'Geschäftsentwicklung & Internationalisierung - Strachwitz Consulting',
+  title: 'Geschäftsentwicklung - Strachwitz Consulting',
   description: 'Export & Markterschließung, Messebetreuung und Agententätigkeit für den deutschen Mittelstand.',
   openGraph: {
-    title: 'Geschäftsentwicklung & Internationalisierung - Strachwitz Consulting',
+    title: 'Geschäftsentwicklung - Strachwitz Consulting',
     description: 'Export & Markterschließung, Messebetreuung und Agententätigkeit.',
   },
 };
@@ -127,7 +127,7 @@ export default function InternationalisierungPage() {
         <div className="container-custom">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl lg:text-6xl font-heading font-bold mb-6 leading-tight">
-              Geschäftsentwicklung & Internationalisierung
+              Geschäftsentwicklung
             </h1>
             <p className="text-xl lg:text-2xl text-gray-200 mb-8 leading-relaxed">
               Export & Markterschließung für den deutschen Mittelstand
@@ -325,7 +325,7 @@ export default function InternationalisierungPage() {
             </div>
             <div className="bg-white rounded-xl p-8 text-center shadow-lg">
                               <div className="w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                  <span className="text-4xl">🤖</span>
+                  <span className="text-4xl">🛡️</span>
                 </div>
               <h3 className="text-xl font-heading font-bold text-primary mb-4">EU KI-VO</h3>
               <p className="text-gray-600 text-sm">

@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import Hero from '@/components/ui/Hero';
 import FeatureCards from '@/components/ui/FeatureCards';
 import KPIStats from '@/components/ui/KPIStats';
@@ -38,7 +39,8 @@ const featureCardsData = [
   {
     title: 'KI-Beratung',
     description: 'Strategische KI-Implementierung für den Mittelstand - von Readiness Assessment bis zur vollständigen Transformation.',
-    icon: '🤖',
+    icon: '/ai-chip-icon.png',
+    iconType: 'image',
     link: '/ki-beratung',
     features: [
       'KI-Readiness Assessment',
@@ -66,7 +68,7 @@ const kpiStatsData = [
     value: '+44%',
     label: 'Umsatzsteigerung',
     description: 'Feinkosthersteller',
-    industry: '100 MA',
+            industry: 'Strategische Expansion',
   },
   {
     value: '+51%',
@@ -168,6 +170,68 @@ export default function HomePage() {
                 </h3>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+      
+      {/* Profile Section */}
+      <section className="py-16 lg:py-24 bg-white">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              <div>
+                <div className="rounded-xl overflow-hidden mb-6">
+                  <Image
+                    src="/fotoas2.png"
+                    alt="António Freiherr von Strachwitz"
+                    width={400}
+                    height={400}
+                    className="w-full h-auto object-cover"
+                    priority
+                  />
+                </div>
+              </div>
+              
+              <div>
+                <h2 className="text-3xl lg:text-4xl font-heading font-bold text-primary mb-6">
+                  António Freiherr von Strachwitz
+                </h2>
+                <p className="text-lg text-gray-600 mb-6 leading-relaxed">
+                  Gründer und Geschäftsführer von Strachwitz Consulting
+                </p>
+                <p className="text-gray-600 mb-6 leading-relaxed">
+                  Über 15 Jahre Führungserfahrung im deutschen Mittelstand und internationalen Konzernen. 
+                  Meine Expertise umfasst Vertriebsführung, digitale Transformation und internationale Geschäftsentwicklung.
+                </p>
+                
+                <div className="space-y-4">
+                  <div className="flex items-start">
+                    <svg className="w-5 h-5 text-secondary mt-0.5 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                    </svg>
+                    <span className="text-gray-600">15+ Jahre Führungserfahrung</span>
+                  </div>
+                  <div className="flex items-start">
+                    <svg className="w-5 h-5 text-secondary mt-0.5 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                    </svg>
+                    <span className="text-gray-600">Internationale Projekte in 20+ Ländern</span>
+                  </div>
+                  <div className="flex items-start">
+                    <svg className="w-5 h-5 text-secondary mt-0.5 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                    </svg>
+                    <span className="text-gray-600">Spezialisierung auf Mittelstand und Familienunternehmen</span>
+                  </div>
+                  <div className="flex items-start">
+                    <svg className="w-5 h-5 text-secondary mt-0.5 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                    </svg>
+                    <span className="text-gray-600">KI- und Digitalisierungsexperte</span>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>

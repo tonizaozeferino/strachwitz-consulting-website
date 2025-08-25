@@ -1,9 +1,11 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 interface FeatureCard {
   title: string;
   description: string;
   icon: string;
+  iconType?: 'emoji' | 'image';
   link: string;
   features: string[];
 }
@@ -32,7 +34,17 @@ export default function FeatureCards({ cards }: FeatureCardsProps) {
               className="bg-white border border-gray-200 rounded-xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 group"
             >
               <div className="w-16 h-16 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
-                <span className="text-4xl">{card.icon}</span>
+                {card.iconType === 'image' ? (
+                  <Image
+                    src={card.icon}
+                    alt={card.title}
+                    width={64}
+                    height={64}
+                    className="w-16 h-16 object-contain"
+                  />
+                ) : (
+                  <span className="text-4xl">{card.icon}</span>
+                )}
               </div>
               
               <h3 className="text-xl font-heading font-bold text-primary mb-4">
