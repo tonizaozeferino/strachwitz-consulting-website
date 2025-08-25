@@ -1,6 +1,5 @@
 'use client';
 
-import { useState } from 'react';
 import CTABar from '@/components/ui/CTABar';
 
 

@@ -40,7 +40,7 @@ const featureCardsData = [
     title: 'KI-Beratung',
     description: 'Strategische KI-Implementierung für den Mittelstand - von Readiness Assessment bis zur vollständigen Transformation.',
     icon: '/ai-chip-icon.png',
-    iconType: 'image',
+    iconType: 'image' as const,
     link: '/ki-beratung',
     features: [
       'KI-Readiness Assessment',

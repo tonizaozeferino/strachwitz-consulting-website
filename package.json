@@ -11,7 +11,7 @@
     "postbuild": "next-sitemap"
   },
   "dependencies": {
-    "next": "14.0.4",
+    "next": "14.2.32",
     "react": "^18",
     "react-dom": "^18",
     "next-sitemap": "^4.2.3",
@@ -25,10 +25,10 @@
     "autoprefixer": "^10.0.1",
     "postcss": "^8",
     "tailwindcss": "^3.3.0",
-    "eslint": "^8",
-    "eslint-config-next": "14.0.4",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "14.2.32",
     "prettier": "^3.1.0",
-    "@typescript-eslint/eslint-plugin": "^6.13.1",
-    "@typescript-eslint/parser": "^6.13.1"
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.0.0"
   }
 }

@@ -17,15 +17,10 @@ const navigation = [
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
   const pathname = usePathname();
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
   const closeMenu = () => setIsMenuOpen(false);
-
-  const handleDropdownToggle = (item: string) => {
-    setActiveDropdown(activeDropdown === item ? null : item);
-  };
 
   return (
     <header className="sticky top-0 z-50 bg-white shadow-md">

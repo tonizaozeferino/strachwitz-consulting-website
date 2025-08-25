@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://strachwitz-consulting.de
+
+# Sitemaps
+Sitemap: https://strachwitz-consulting.de/sitemap.xml
