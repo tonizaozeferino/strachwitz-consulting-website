@@ -28,7 +28,7 @@ export default function AGBPage() {
             
             <div className="space-y-6">
               <p className="text-gray-600">
-                Diese Allgemeinen Geschäftsbedingungen (AGB) gelten für alle Verträge zwischen Strachwitz Consulting (im Folgenden „Berater") und seinen Kunden. Abweichende Bedingungen des Kunden gelten nur, wenn sie ausdrücklich schriftlich anerkannt wurden.
+                Diese Allgemeinen Geschäftsbedingungen (AGB) gelten für alle Verträge zwischen Strachwitz Consulting (im Folgenden &ldquo;Berater&rdquo;) und seinen Kunden. Abweichende Bedingungen des Kunden gelten nur, wenn sie ausdrücklich schriftlich anerkannt wurden.
               </p>
             </div>
             
@@ -67,7 +67,7 @@ export default function AGBPage() {
             <div className="space-y-6">
               <ul className="list-disc list-inside text-gray-600 space-y-2">
                 <li>Die Vergütung erfolgt auf Basis eines vereinbarten Tagessatzes oder als All-in-Angebot.</li>
-                <li>Nebenkosten (Reisezeit, Spesen, Material) werden gesondert berechnet, sofern nicht ausdrücklich „All-in" vereinbart.</li>
+                <li>Nebenkosten (Reisezeit, Spesen, Material) werden gesondert berechnet, sofern nicht ausdrücklich &ldquo;All-in&rdquo; vereinbart.</li>
                 <li>Rechnungen sind ohne Abzug innerhalb von 14 Tagen nach Erhalt zahlbar.</li>
                 <li>Bei Zahlungsverzug behält sich der Berater vor, Verzugszinsen nach §288 BGB geltend zu machen.</li>
               </ul>

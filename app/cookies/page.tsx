@@ -56,7 +56,7 @@ export default function CookiesPage() {
             
             <div className="space-y-6">
               <p className="text-gray-600">
-                Beim ersten Besuch unserer Website zeigen wir Ihnen ein Cookie-Banner an, in dem Sie auswählen können, welche Cookies Sie zulassen möchten. Sie können Ihre Einwilligung jederzeit über den Link „Cookie-Einstellungen" am Seitenende widerrufen oder ändern.
+                Beim ersten Besuch unserer Website zeigen wir Ihnen ein Cookie-Banner an, in dem Sie auswählen können, welche Cookies Sie zulassen möchten. Sie können Ihre Einwilligung jederzeit über den Link &ldquo;Cookie-Einstellungen&rdquo; am Seitenende widerrufen oder ändern.
               </p>
             </div>
             

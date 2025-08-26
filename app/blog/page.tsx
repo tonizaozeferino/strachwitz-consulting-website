@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import Link from 'next/link';
 import { getAllBlogPosts } from '@/lib/blog-data';
 import BlogCard from '@/components/ui/BlogCard';
 
