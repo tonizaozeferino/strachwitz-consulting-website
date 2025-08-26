@@ -100,7 +100,7 @@ npm run format       # Prettier Formatierung
 - **Geschäftsentwicklung** (`/internationalisierung`) - Export, Messen, Agenten
 - **Branchen** (`/branchen`) - Branchenübersicht
 - **Über uns** (`/ueber-uns`) - Team, Philosophie
-- **Wissen** (`/wissen`) - Blog, Leitfäden, Events
+- **Wissen** (`/wissen`) - Leitfäden, Events
 - **Kontakt** (`/kontakt`) - Kontaktformular, Informationen
 
 ### Rechtliche Seiten
@@ -212,8 +212,6 @@ npm run export
 - Strukturierte Daten (JSON-LD)
 
 ### Zukünftige Erweiterungen
-- CMS Integration (Strapi, Contentful)
-- Blog-System
 - Event-Management
 - Newsletter-Integration
 
@@ -243,7 +241,6 @@ npm audit fix
 - [ ] Google Analytics Setup
 
 ### Mittelfristig
-- [ ] Blog-System
 - [ ] Event-Management
 - [ ] Mehrsprachigkeit
 - [ ] Dark Mode

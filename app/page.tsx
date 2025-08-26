@@ -3,7 +3,6 @@ import Image from 'next/image';
 import Hero from '@/components/ui/Hero';
 import FeatureCards from '@/components/ui/FeatureCards';
 import KPIStats from '@/components/ui/KPIStats';
-import BlogPreview from '@/components/ui/BlogPreview';
 import CTABar from '@/components/ui/CTABar';
 
 export const metadata: Metadata = {
@@ -268,14 +267,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-      
-      {/* Blog Preview Section */}
-      <BlogPreview 
-        title="Aktuelle Insights & Fachartikel"
-        subtitle="Expertentipps zu Interim Management, KI-Beratung und Geschäftsentwicklung"
-        maxPosts={3}
-        showViewAll={true}
-      />
       
       <CTABar
         title="Bereit für den nächsten Schritt?"
