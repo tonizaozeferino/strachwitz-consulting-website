@@ -3,7 +3,8 @@ import Link from 'next/link';
 const legal = [
   { name: 'Impressum', href: '/impressum' },
   { name: 'Datenschutz', href: '/datenschutz' },
-  { name: 'AGB', href: '/agb' },
+  { name: 'Cookies', href: '/cookies' },
+  { name: 'Allgemeine Geschäftsbedingungen', href: '/agb' },
 ];
 
 const socialMedia = [

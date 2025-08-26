@@ -41,8 +41,8 @@ export default function ContactForm({
         <div className="text-sm text-gray-500">
           <p>Oder kontaktieren Sie uns direkt:</p>
           <p className="mt-2">
-            <strong>Telefon:</strong> +49 9325 39 199 63<br />
-            <strong>E-Mail:</strong> kontakt@strachwitzconsulting.com
+            <strong>Telefon:</strong> <a href="tel:+4993253919963" className="text-gray-500 hover:text-primary transition-colors duration-200">+49 9325 39 199 63</a><br />
+            <strong>E-Mail:</strong> <a href="mailto:kontakt@strachwitzconsulting.com" className="text-gray-500 hover:text-primary transition-colors duration-200">kontakt@strachwitzconsulting.com</a>
           </p>
         </div>
       </div>

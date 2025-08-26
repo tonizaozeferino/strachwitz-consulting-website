@@ -16,72 +16,127 @@ export default function DatenschutzPage() {
           
           <div className="prose prose-lg max-w-none">
             <h2 className="text-2xl font-heading font-bold text-primary mb-4">
-              Datenschutz auf einen Blick
+              1. Verantwortliche Stelle
+            </h2>
+            
+            <div className="space-y-6">
+              <div>
+                <p className="text-gray-600">
+                  Strachwitz Consulting<br />
+                  António Freiherr von Strachwitz<br />
+                  Wüstenfelden 3<br />
+                  97355 Castell, Deutschland
+                </p>
+              </div>
+              
+              <div>
+                <p className="text-gray-600">
+                  Telefon: +49 156 78 55 60 038<br />
+                  E-Mail: webmaster@strachwitzconsulting.com
+                </p>
+              </div>
+            </div>
+            
+            <h2 className="text-2xl font-heading font-bold text-primary mb-4 mt-12">
+              2. Erhebung und Speicherung personenbezogener Daten sowie Art und Zweck von deren Verwendung
             </h2>
             
             <div className="space-y-6">
               <div>
                 <h3 className="text-xl font-heading font-bold text-primary mb-2">
-                  Allgemeine Hinweise
+                  Beim Besuch der Website
                 </h3>
+                <p className="text-gray-600 mb-4">
+                  Beim Aufrufen unserer Website werden durch den auf Ihrem Endgerät zum Einsatz kommenden Browser automatisch Informationen an den Server unserer Website gesendet. Diese Informationen werden temporär in einem sog. Logfile gespeichert. Folgende Informationen werden dabei ohne Ihr Zutun erfasst und bis zur automatisierten Löschung gespeichert:
+                </p>
+                <ul className="list-disc list-inside text-gray-600 mb-4 space-y-1">
+                  <li>IP-Adresse des anfragenden Rechners</li>
+                  <li>Datum und Uhrzeit des Zugriffs</li>
+                  <li>Name und URL der abgerufenen Datei</li>
+                  <li>Website, von der aus der Zugriff erfolgt (Referrer-URL)</li>
+                  <li>verwendeter Browser und ggf. das Betriebssystem Ihres Rechners</li>
+                </ul>
+                <p className="text-gray-600 mb-4">
+                  Die genannten Daten werden durch uns zu folgenden Zwecken verarbeitet:
+                </p>
+                <ul className="list-disc list-inside text-gray-600 mb-4 space-y-1">
+                  <li>Gewährleistung eines reibungslosen Verbindungsaufbaus der Website,</li>
+                  <li>Gewährleistung einer komfortablen Nutzung unserer Website,</li>
+                  <li>Auswertung der Systemsicherheit und -stabilität.</li>
+                </ul>
                 <p className="text-gray-600">
-                  Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten passiert, wenn Sie diese Website besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie persönlich identifiziert werden können.
+                  <strong>Rechtsgrundlage:</strong> Art. 6 Abs. 1 lit. f DSGVO.
                 </p>
               </div>
               
               <div>
                 <h3 className="text-xl font-heading font-bold text-primary mb-2">
-                  Datenerfassung auf dieser Website
+                  Bei Kontaktaufnahme per E-Mail
                 </h3>
                 <p className="text-gray-600">
-                  Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. Die Kontaktdaten können Sie dem Abschnitt &ldquo;Hinweis zur Verantwortlichen Stelle&rdquo; in dieser Datenschutzerklärung entnehmen.
+                  Wenn Sie uns per E-Mail kontaktieren, werden die von Ihnen mitgeteilten Daten (z. B. Name, E-Mail-Adresse, Telefonnummer, Inhalt der Nachricht) gespeichert, um Ihre Anfrage zu beantworten.<br />
+                  <strong>Rechtsgrundlage:</strong> Art. 6 Abs. 1 lit. b DSGVO (vorvertragliche Maßnahmen).
                 </p>
               </div>
-              
-              <div>
-                <h3 className="text-xl font-heading font-bold text-primary mb-2">
-                  Wie erfassen wir Ihre Daten?
-                </h3>
-                <p className="text-gray-600">
-                  Ihre Daten werden zum einen dadurch erhoben, dass Sie uns diese mitteilen. Hierbei kann es sich z. B. um Daten handeln, die Sie in ein Kontaktformular eingeben. Andere Daten werden automatisch oder nach Ihrer Einwilligung beim Besuch der Website durch unsere IT-Systeme erfasst.
-                </p>
-              </div>
-              
-              <div>
-                <h3 className="text-xl font-heading font-bold text-primary mb-2">
-                  Wofür nutzen wir Ihre Daten?
-                </h3>
-                <p className="text-gray-600">
-                  Ein Teil der Daten wird erhoben, um eine fehlerfreie Bereitstellung der Website zu gewährleisten. Andere Daten können zur Analyse Ihres Nutzerverhaltens verwendet werden.
-                </p>
-              </div>
-              
-              <div>
-                <h3 className="text-xl font-heading font-bold text-primary mb-2">
-                  Welche Rechte haben Sie bezüglich Ihrer Daten?
-                </h3>
-                <p className="text-gray-600">
-                  Sie haben jederzeit das Recht, unentgeltlich Auskunft über Herkunft, Empfänger und Zweck Ihrer gespeicherten personenbezogenen Daten zu erhalten. Sie haben außerdem ein Recht, die Berichtigung oder Löschung dieser Daten zu verlangen.
-                </p>
-              </div>
-              
-              <div>
-                <h3 className="text-xl font-heading font-bold text-primary mb-2">
-                  Kontaktformular
-                </h3>
-                <p className="text-gray-600">
-                  Wenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem Anfrageformular inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen bei uns gespeichert. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter.
-                </p>
-              </div>
-              
-              <div>
-                <h3 className="text-xl font-heading font-bold text-primary mb-2">
-                  Cookies
-                </h3>
-                <p className="text-gray-600">
-                  Diese Website verwendet Cookies. Cookies sind kleine Textdateien, die auf Ihrem Endgerät gespeichert werden. Sie dienen dazu, unsere Website benutzerfreundlicher, effektiver und sicherer zu machen.
-                </p>
-              </div>
+            </div>
+            
+            <h2 className="text-2xl font-heading font-bold text-primary mb-4 mt-12">
+              3. Weitergabe von Daten
+            </h2>
+            
+            <div className="space-y-6">
+              <p className="text-gray-600">
+                Eine Übermittlung Ihrer persönlichen Daten an Dritte findet nur statt, soweit dies für die Abwicklung von Vertragsverhältnissen erforderlich ist oder Sie ausdrücklich eingewilligt haben.
+              </p>
+            </div>
+            
+            <h2 className="text-2xl font-heading font-bold text-primary mb-4 mt-12">
+              4. Ihre Rechte
+            </h2>
+            
+            <div className="space-y-6">
+              <p className="text-gray-600 mb-4">
+                Sie haben das Recht:
+              </p>
+              <ul className="list-disc list-inside text-gray-600 space-y-1">
+                <li>gemäß Art. 15 DSGVO Auskunft über Ihre von uns verarbeiteten personenbezogenen Daten zu verlangen,</li>
+                <li>gemäß Art. 16 DSGVO unverzüglich die Berichtigung unrichtiger Daten zu verlangen,</li>
+                <li>gemäß Art. 17 DSGVO die Löschung Ihrer bei uns gespeicherten Daten zu verlangen,</li>
+                <li>gemäß Art. 18 DSGVO die Einschränkung der Verarbeitung zu verlangen,</li>
+                <li>gemäß Art. 20 DSGVO Datenübertragbarkeit zu verlangen,</li>
+                <li>gemäß Art. 21 DSGVO Widerspruch gegen die Verarbeitung einzulegen.</li>
+              </ul>
+            </div>
+            
+            <h2 className="text-2xl font-heading font-bold text-primary mb-4 mt-12">
+              5. Beschwerderecht
+            </h2>
+            
+            <div className="space-y-6">
+              <p className="text-gray-600">
+                Sie haben das Recht, sich bei der zuständigen Datenschutz-Aufsichtsbehörde zu beschweren.<br />
+                Zuständig ist das Bayerische Landesamt für Datenschutzaufsicht (BayLDA), Promenade 18, 91522 Ansbach.
+              </p>
+            </div>
+            
+            <h2 className="text-2xl font-heading font-bold text-primary mb-4 mt-12">
+              6. Speicherdauer
+            </h2>
+            
+            <div className="space-y-6">
+              <p className="text-gray-600">
+                Personenbezogene Daten werden gelöscht, sobald der Zweck der Speicherung entfällt oder Sie Ihre Einwilligung widerrufen, es sei denn gesetzliche Aufbewahrungspflichten bestehen.
+              </p>
+            </div>
+            
+            <h2 className="text-2xl font-heading font-bold text-primary mb-4 mt-12">
+              7. SSL- bzw. TLS-Verschlüsselung
+            </h2>
+            
+            <div className="space-y-6">
+              <p className="text-gray-600">
+                Diese Seite nutzt aus Sicherheitsgründen eine SSL-bzw. TLS-Verschlüsselung.
+              </p>
             </div>
           </div>
         </div>

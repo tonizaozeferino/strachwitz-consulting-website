@@ -1,0 +1,10 @@
+# Strapi CMS Configuration
+# Copy this to your .env.local file
+
+NEXT_PUBLIC_STRAPI_URL=http://localhost:1337
+
+# Optional: Strapi API Token (for write operations)
+# STRAPI_API_TOKEN=your-api-token-here
+
+# Your existing environment variables
+# Add any other environment variables you need

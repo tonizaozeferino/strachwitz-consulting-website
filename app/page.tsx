@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Hero from '@/components/ui/Hero';
 import FeatureCards from '@/components/ui/FeatureCards';
 import KPIStats from '@/components/ui/KPIStats';
+import BlogPreview from '@/components/ui/BlogPreview';
 import CTABar from '@/components/ui/CTABar';
 
 export const metadata: Metadata = {
@@ -27,7 +28,8 @@ const featureCardsData = [
   {
     title: 'Interim Management',
     description: 'Erfahrene Führungskräfte für Ihre strategischen Herausforderungen - von Vertriebsführung bis Unternehmens transformation.',
-    icon: '👥',
+    icon: '/interim-manager-icon2.png',
+    iconType: 'image' as const,
     link: '/interim-management',
     features: [
       'Vertriebsführung (CSO/CRO)',
@@ -52,7 +54,8 @@ const featureCardsData = [
   {
     title: 'Geschäftsentwicklung',
     description: 'Internationale Expansion und Markterschließung - von DACH über EU bis Afrika und Naher Osten.',
-    icon: '🌍',
+    icon: '/business-development-icon.png',
+    iconType: 'image' as const,
     link: '/internationalisierung',
     features: [
       'Export & Markterschließung',
@@ -265,6 +268,14 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+      
+      {/* Blog Preview Section */}
+      <BlogPreview 
+        title="Aktuelle Insights & Fachartikel"
+        subtitle="Expertentipps zu Interim Management, KI-Beratung und Geschäftsentwicklung"
+        maxPosts={3}
+        showViewAll={true}
+      />
       
       <CTABar
         title="Bereit für den nächsten Schritt?"
